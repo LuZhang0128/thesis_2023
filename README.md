@@ -11,6 +11,9 @@ The [data_split.py](https://github.com/LuZhang0128/thesis_2023/blob/main/aws_del
 The sampling for manual labeling, iter-coder reliability calculation, data cleaning, and other data-related explorations can be found on this Google Colab page: https://colab.research.google.com/drive/15GLi_PymGFoLV0FUW4uhLqWknBzWR4xR#scrollTo=dWGNbGrALFQI
 
 # Machine learning
-The code and output of the machine learning model can be found in this folder: https://drive.google.com/drive/folders/1GCuT03x-eOHxtwbDzgg61Uks2-gCQWnW?usp=sharing
+Due to the size limit of GitHub, the raw data for the machine learning model, its code, and the corresponding outputs of the machine learning models can be found in this folder: https://drive.google.com/drive/folders/1GCuT03x-eOHxtwbDzgg61Uks2-gCQWnW?usp=sharing
+
+# Data Analysis
+
 
 
