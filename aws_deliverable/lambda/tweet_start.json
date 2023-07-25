@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {   "Sid": "AllowStateMachineAccess",
+            "Effect": "Allow",
+            "Action": "states:StartExecution",
+            "Resource": "arn:aws:states:us-east-1:190312862683:stateMachine:tweet_state_machines"
+        },
+        {
+            "Sid": "AllowS3Access",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": "arn:aws:s3:::twitter-thesis-data/input"
+        }
+    ]
+}

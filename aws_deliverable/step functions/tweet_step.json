@@ -1,0 +1,21 @@
+{
+  "StartAt": "MapExample",
+  "States": {
+    "MapExample": {
+      "Type": "Map",
+      "ItemsPath": "$.data",
+      "MaxConcurrency": 10,
+      "Iterator": {
+        "StartAt": "DoSomething",
+        "States": {
+          "DoSomething": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:<regron>:<account_id>:function:<lambda_name>:$LATEST",
+            "End": true
+          }
+        }
+      },
+      "End": true
+    }
+  }
+}
